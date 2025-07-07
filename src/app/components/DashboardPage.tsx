@@ -6,10 +6,10 @@ import { useAuth } from '../../context/AuthContext';
 import { useDashboard } from '../../context/DashboardContext';
 
 interface Todo {
-  id: number;
-  text: string;
-  completed: boolean;
-  createdAt: string;
+  id: string;
+  content: string;
+  created_at: string;
+  user_id: string;
 }
 
 export default function DashboardPage() {
@@ -46,7 +46,7 @@ export default function DashboardPage() {
     }
   };
 
-  const handleDeleteTodo = async (id: number) => {
+  const handleDeleteTodo = async (id: string) => {
     try {
       const result = await deleteTodo(id);
       if (!result.success) {
@@ -141,7 +141,7 @@ export default function DashboardPage() {
             </div>
           ) : (
             <div className="divide-y divide-gray-200">
-              {todos.map((todo: any) => (
+              {todos.map((todo: Todo) => (
                 <div key={todo.id} className="p-4 flex items-center justify-between hover:bg-gray-50 transition-colors">
                   <div className="flex items-center gap-3 flex-1">
                     <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center">
