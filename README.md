@@ -2,7 +2,7 @@
 ### How to run locally:
 
 First, run the development server:
-
+- change the project directory ``` cd to-do-list-app ```
 ```bash
 npm run dev
 # or
