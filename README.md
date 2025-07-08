@@ -36,4 +36,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Calender integration
 - Real-time listing to-dos with others
 
+Live Coding Session - https://cloudmails-my.sharepoint.com/:v:/g/personal/tp076459_mail_apu_edu_my/EYei_mk5cGNMk2MKw6CpruoBrX-vF6R6LjtVQVtzmc36QA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IgIEnP
 
